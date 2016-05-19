@@ -286,7 +286,7 @@ class String
     # Get value and show it
     #
     n = self.getValue(vo)
-    output = "The value of the string &ldquo; #{s} &rdquo; is #{n}:".tag('p','gemhead')
+    output = "The value of the string &ldquo; #{self} &rdquo; is #{n}:".tag('p','gemhead')
     output += n.lookup.output(n)
 
     # Finals?
