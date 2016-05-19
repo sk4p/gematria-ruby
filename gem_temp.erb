@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gematria Calculator (In Ruby!)</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext" type="text/css" media="all" />
+<link rel="stylesheet" href="/gematria/gem_style.css" type="text/css">
+</head>
+<body>
+
+<form role="form" action="/gematria/" method="GET" id="gematria-form">
+<div class="gemitem">
+<input autofocus class="inputtext" type="text" name="s" id="gems">
+</div>
+<div class="gemitem">
+<%= encodingpopup %>
+</div>
+</form>
+
+<%= output %>
+
+</body>

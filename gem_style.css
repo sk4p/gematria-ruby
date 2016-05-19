@@ -1,0 +1,90 @@
+body {
+    font-family: Lato, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  text-align: left;
+  padding: 0.35em;
+}
+
+table#gementry {
+  width: 550px;
+}
+
+th.gemtablehead {
+  text-align: center;
+  border: none;
+  font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.hover {
+  text-decoration: underline;
+}
+
+#gemtabletitle {
+  text-transform: none;
+}
+
+span.gemtitle {
+  font-size: 1.3rem;
+}
+
+#gematria-form {
+  text-align: center;
+  border: 1px solid rgba(0,0,0,0.25);
+  width: 550px;
+  margin-bottom: 2em;
+}
+
+#gematria-form input {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+}
+
+#gematria-form input:focus {
+  box-shadow: 0 0 3px #ad3333;
+}
+
+#gematria-form .gemitem {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+#gematria-form #gems,
+#gematria-form #geml {
+  width: 500px;
+}
+
+#gematria-results a {
+  text-decoration: none;
+}
+
+#gematria-results a:hover {
+  text-decoration: underline;
+}
+
+.gemhit {
+  padding: 9px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+#gematria-results .tt { 
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.gemhead {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
